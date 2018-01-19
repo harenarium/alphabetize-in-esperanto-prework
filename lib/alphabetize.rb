@@ -3,7 +3,7 @@ def alphabetize(arr)
     counter = 0
     while counter < phrase.length
       start_value(phrase[counter])
-      counter ++
+      counter +=1
     end
   }
   # code here
