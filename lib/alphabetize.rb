@@ -1,10 +1,12 @@
 def alphabetize(arr)
   arr.sort_by{ |phrase|
     counter = 0
+    array = []
     while counter < phrase.length
-      start_value(phrase[counter])
+      array << start_value(phrase[counter])
       counter +=1
     end
+    array
   }
   # code here
 end
